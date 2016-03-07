@@ -10,6 +10,10 @@ Also runs on embedded devices like the raspberry pi.
 Install
 ===================
 
+This has been merged into the standard Linux kinect driver in v3.17.
+To switch the standard kinect driver from video mode to depth mode, set
+the command-line argument depth_mode=1.
+
 PC
 --
 ```Bash
